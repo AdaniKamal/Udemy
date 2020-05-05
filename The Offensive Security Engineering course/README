@@ -1,0 +1,87 @@
+README
+
+The Offensive Security Engineering course
+
+Final Exam:
+
+1) What is the command to test execution of a Terraform script?
+= terraform plan
+terraform plan - Generate and show an execution plan
+terraform destroy - Destroy Terraform-managed infrastructure
+terraform apply -  Builds or changes infrastructure
+
+2) What is the second "T" in the acronym "TTP"?
+= Techniques 
+* TTP = Tactics, techniques and procedures
+
+3) What is the command to execute a Terraform script?
+= terraform apply
+terraform plan - Generate and show an execution plan
+terraform destroy - Destroy Terraform-managed infrastructure
+terraform apply -  Builds or changes infrastructure
+
+4) In social engineering, a target is sometimes referred to as a ________.
+= mark
+
+5) What directory are state files stored within Saltstack?
+= srv/salt
+
+6) Which of the following are attributes of a "bind" payload?
+= Choose all correct answer:
+> A port is open the target system
+> A connection is establish from C2 to the target
+> The payload may not be able to open a particular port if it doesn't have the proper permission
+
+7) What command can be used to stop Windows Defender on a system?
+= sc stop windefend
+
+8) What is the "P" in the acronym "TTP"?
+= Procedures
+* TTP = Tactics, techniques and procedures
+
+9) What command is used to check if Windows Defender is running on a system?
+= sc query windefend
+
+10) From the following select the proper phases of a Red Team engagement.
+= Choose all correct answer:
+> Get In
+> Act
+> Stay In
+
+11) C2 redirectors allow which of the following capabilities.
+= Choose all correct answer:
+> Scaling C2 request operations
+> Parsing and handling multiple requests for redirection
+> Protecting the core C2 server's location
+
+12) What function in golang from the "http" module can be used to make a GET request?
+= http.get()
+
+13) Why is it good to configure the Salt Master's fingerprint within a Salt Minion before association?
+= An integrity check to verify that the salt minion is connecting to the correct salt master
+
+14) Which of the following is true about a "reverse" payload?
+= Choose all correct answer:
+> The C2 server must expose a port to listen for incoming connections from the payload
+> The target connects to the C2 server.
+> It is easier to get around firewall restrictions as long as the host can
+
+15) Empire C# stagers require you to...
+= Use a generated visual studio solution to compile the binary
+
+16) Gophish requires a _______ to send emails from a sending profile.
+= SMTP Relay
+
+17) How many phases are in a common Red Team Operation?
+= 3
+
+18) What class method in the Python HTTPServer library can be used to intercept and handle incoming GET requests?
+= do_GET
+
+19) What is the first "T" in the acronym "TTP"?
+= Tactics
+* TTP = Tactics, techniques and procedures
+
+20)This tool is used to extract plaintext credentials from memory.
+= mimikatz (Extract Plain-Text Passwords From Memory)
+
